@@ -1,0 +1,168 @@
+body{
+	font-size: 16px !important; 
+}
+
+/*Anexos*/
+::selection {
+	background:black;
+	color:aliceblue;
+}
+.text-center{
+	text-align: center;
+}
+.white{
+	color: white;
+}
+.gray-claro{
+	color: #d0c4bf;
+}
+.pointer{
+	cursor: pointer;
+}
+.img-responsive{
+	display: inline-block !important;
+}
+/*header img .absolute{
+	position: absolute;
+}*/
+.justificado{
+	text-align: justify;
+}
+
+.br{
+	border-radius: 50%;
+    border: .3em solid white;
+}
+.pacifico{
+	font-family: 'Pacifico', cursive;
+}
+.botontes{
+	    background: transparent;
+	    padding: .8em 3em;
+	    border-radius: .2em; 
+	    color: white;
+	    border: 1px solid white;
+	    -webkit-transition: .4s all;
+	    -o-transition: .4s all;
+	    transition: .4s all;
+
+}
+
+.botontes:hover{
+	    background: white;
+	    text-decoration: none;
+	    
+		color: black;
+	    border: 1px solid white;
+	    -webkit-transition: .4s all;
+	    -o-transition: .4s all;
+	    transition: .4s all;
+
+}
+
+
+
+ 
+/*********************HEADER***************************/
+/*#header{
+ 
+	background-repeat: no-repeat;	
+	background-size: cover;
+	height: 30em;
+	background-attachment: fixed;
+	background-position: 70% 70%;	
+	margin: 0;
+}
+ */
+header{ 
+     /*position: relative;*/
+         background: rgba(0, 0, 0, 0.67);
+ 
+     
+}
+header .contenido{
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	margin-top: 5%;
+	left: 50%;
+	width: 22em;
+	transform: translateX(-50%);
+
+} 
+h1.titulo{
+	font-size: 2.5em;
+}
+
+
+ .fullscreen-bg {
+     position: relative;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     overflow: hidden;
+     z-index: -100; 
+     min-height: 540px;
+     max-height: 500px; 
+ }
+
+ .fullscreen-bg__video {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     
+ }
+
+  /*Medias Query*/
+ @media screen and (min-width: 700px){	
+ 	header .contenido{ 
+ 		margin-top: 3.5%;
+		width: 44em; 
+ 	}
+ 	header .titulo{
+ 		font-size: 3.2em;
+ 	}
+ 	header .descripcion{
+ 	    font-size: 1em;
+ 	}
+
+ 	 	 
+ }
+
+ @media only screen and (min-width: 0px) and (max-width: 400px){
+		
+	header .contenido h1{
+		font-size: 22px;
+	}
+
+	header .contenido p{
+		font-size: 1em;
+	}
+		
+	.fullscreen-bg { 
+		min-height: 300px;
+
+	}
+
+
+ }
+
+ @media only screen and (min-width: 400px) and (max-width: 560px){
+ 	.fullscreen-bg {
+		min-height: 300px;
+ 	}
+
+}
+
+ @media only screen and (min-width: 561px) and (max-width: 701px){
+
+  	header .contenido{ 
+  		margin-top: 10.5% ;
+    }
+
+ 	.fullscreen-bg {
+		min-height: 360px;
+ 	}
+ }

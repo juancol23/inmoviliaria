@@ -1,0 +1,15 @@
+#footer{
+	font-size: 16px;
+	/*background-image: url(http://juanvaldemar.github.io/Perfil/img/app_21.jpg);*/
+	background-repeat: no-repeat;  
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 50%;  
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	background: rgba(0, 0, 0, 0.18);
+	color: #111111;
+	padding-top: .6em;
+}
